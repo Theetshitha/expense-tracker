@@ -1,0 +1,149 @@
+*{
+    line-height: 7px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    /* height: 600px; */
+    background-color: #f7f7f7;
+    letter-spacing: 2px;
+    
+}
+
+h2{
+    text-align: center;
+    margin-bottom:42px;
+    font-family: 'Lato', sans-serif;
+}
+
+.inner5{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-weight: bold;
+    letter-spacing: normal;
+   
+}
+
+
+.inner-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 20px 6px 20px;
+    height: 70px;
+    width: 300px;
+    font-size: small;
+    background-color: white;
+    box-shadow: 1px 1px 4px 1px #c6c6c6;
+    border: none;
+    margin-top: 10px;
+}
+
+.inner2-1{
+    padding: 0px 10px 0px 40px;
+    line-height: 10px;
+    height: 70px;
+}
+.inner2-2{
+    border-left: 1px solid rgba(249, 249, 249, 0.434);
+    border-left-style:inset;
+    line-height: 10px;
+    padding: 0px 40px 0px 40px;
+    height: 70px;
+}
+
+label{
+    color: #080c0f;
+    font-weight: lighter;
+}
+input{
+    padding: 8px;
+    background-color: #ffffff;
+    color: #8c8192;
+    border: 1px solid #e3e3e3;
+    box-shadow: 0px 0px 2px 0px #e3e3e3;
+}
+button{
+    padding: 10px;
+    background-color: #b171fb;
+    color: #faf8ff;
+    box-shadow: 0px 0px 2px 0px #b9a4ca;
+    border: none;
+    font-weight: bold;
+}
+hr{
+    color: #d9d9d9;
+}
+p{
+    font-size:large;
+    font-weight: 600;
+}
+#income{
+    color: #85fc89;
+}
+#expense{
+    color:#e0554d;
+}
+h4{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+.inner3-1{
+    display: flex;
+    flex-direction:column;
+    gap: 5px;
+    text-align: left;
+}
+.h-div{
+    display: flex;
+    gap: 5px;
+    text-align: left;
+}
+#his{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.558);
+    padding: 2px;
+    width:340px;
+}
+
+#db{
+ /* margin-left: -40px; */
+ height: 40px;
+ width: 35px;
+ background-color: red;
+}
+
+
+
+.db1{
+    display: none;
+
+}
+.db2{
+    display: block;
+}
+
+.border-green{
+border-right:6px solid #85fc89;
+}
+
+.border-Red{
+    border-right:6px solid red;  
+}
+
+.scroll{
+  max-height: 100px;
+  max-width:340px; 
+  /* height:138px; */
+  white-space: nowrap;
+  overflow: auto; 
+  
+}
